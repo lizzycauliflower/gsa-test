@@ -70,7 +70,7 @@
 #left {
   float:left;
   background-color:#7C90DB;
-  height:540px;
+  height:300px;
   width:60%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -86,8 +86,75 @@
   padding-bottom: 20px;
 }
 
-#bottom {
-  background-color:red;
-  height:200px;
-  width:100%;
+#missiontitle{
+  font-family: 'Quicksand', sans-serif;
+  font-size:50px;
+  text-align: center;
+  color: #E5BEED;
+}
+
+#mission{
+  font-family: 'Quicksand', sans-serif;
+  font-size:30px;
+}
+
+#seperater{
+  background-color: red;
+  width:60%;
+  height:20px;
+}
+
+#red{
+  background-color: #FF5964;
+  width: 10%;
+  height:240px;
+  float: left;
+  font-size:150px;
+  text-align: center;
+  color:white;
+}
+#orange{
+  background-color: #FFB997;
+  width: 10%;
+  height:240px;
+  float: left;
+  font-size:150px;
+  text-align: center;
+  color:white;
+}
+#yellow{
+  background-color: #FFE74C;
+  width: 10%;
+  height:240px;
+  float: left;
+  font-size:150px;
+  text-align: center;
+  color:white;
+}
+#green{
+  background-color: #6BF178;
+  width: 10%;
+  height:240px;
+  float: left;
+  font-size:150px;
+  text-align: center;
+  color:white;
+}
+#blue{
+  background-color: #35A7FF;
+  width: 10%;
+  height:240px;
+  float: left;
+  font-size:150px;
+  text-align: center;
+  color:white;
+}
+#purple{
+  background-color: #A682FF;
+  width: 10%;
+  height:240px;
+  float: left;
+  font-size:150px;
+  text-align: center;
+  color:white;
 }
