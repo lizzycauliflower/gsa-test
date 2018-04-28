@@ -58,26 +58,32 @@
   .nav li {
     display: inline-block;
   }
-  
+
 .mainpicture {
-  background-color: #1D3461;
-  height:40%;
+  background-color: #001427;
+  height:300px;
   width:100%;
+  text-align:center;
+  padding-bottom: 5%;
 }
 
 #left {
   float:left;
   background-color:#7C90DB;
-  height:500px;
+  height:540px;
   width:60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #right {
   float:right;
   background-color:#9593D9;
-  height:500px;
+  height:540px;
   width:40%;
   text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #bottom {
