@@ -64,3 +64,14 @@
   text-align:center;
   padding-bottom: 5%;
 }
+
+.whenere{
+  width:100%;
+  height: 300px;
+  background-color: green;
+}
+.officers{
+  width:100%;
+  height: 300px;
+  background-color: blue;
+}

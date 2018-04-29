@@ -64,3 +64,28 @@
   text-align:center;
   padding-bottom: 5%;
 }
+
+.left{
+  float:left;
+  width:70%;
+  height:900px;
+}
+
+.right{
+  float: right;
+  height:900px;
+  width:30%;
+  background-color:yellow;
+}
+
+.do{
+  background-color:blue;
+  width:100%;
+  height:450px;
+}
+
+.events{
+  width:100%;
+  height:450px;
+  background-color:red;
+}
