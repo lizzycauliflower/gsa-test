@@ -8,7 +8,7 @@
  <body class="news">
   <header>
     <div class="nav">
-    <img src="https://pbs.twimg.com/profile_images/831265818709069826/37vUd8J6_400x400.jpg" width="250px" height="250px" />
+  <img src="https://pbs.twimg.com/profile_images/831265818709069826/37vUd8J6_400x400.jpg" width="250px" height="250px" />
       <ul>
 
         <li class="home"><a href="index.html">Home</a></li>
@@ -23,14 +23,45 @@
 		<img class="love" src="https://raw.githubusercontent.com/lizzycauliflower/gsa/master/1500x500%202.jpg" width="100%">
     </div>
 
-    <div id="left">
-      <p id="missiontitle">Our Mission</p>
-      <p id="mission">not sure yet however I am putting this text here in order to visualize how it would look</p>
+
+
+    <div class="left">
+      <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img id="pls"src="https://github.com/lizzycauliflower/gsa-test/blob/master/19379493_1801306060181302_1258680800778387456_n.jpg?raw=true" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img id="pls"src="https://github.com/lizzycauliflower/gsa-test/blob/master/19367014_1406830246064143_6902032871536459776_n.jpg?raw=true" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img id="pls"src="https://github.com/lizzycauliflower/gsa-test/blob/master/16110214_226034811133564_4383910811660189696_n.jpg?raw=true" style="width:100%">
+
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
 
     </div>
 
     <div id="right">
-      <a class="twitter-timeline" data-width="500" data-height="540" href="https://twitter.com/GsaCamas?ref_src=twsrc%5Etfw">Tweets by
+      <a class="twitter-timeline" data-width="500" data-height="780" href="https://twitter.com/GsaCamas?ref_src=twsrc%5Etfw">Tweets by
         GsaCamas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </div>
@@ -47,6 +78,35 @@
     <div id="purple">+</div>
   </div>
 
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++)
+    {
+  slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 
   </body>
 </html>
